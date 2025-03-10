@@ -9,7 +9,9 @@ Players start from the center of the maze and race to a predetermined endpoint a
 - [System Architecture](#system-architecture)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Arduino Joystick Module](#arduino-joystick-module)
 - [Contributing](#contributing)
+
 
 ## 🚀 Features
 ✅ **Random Maze Generation** - Unique mazes generated using an algorithm  
@@ -59,6 +61,16 @@ Players start from the center of the maze and race to a predetermined endpoint a
 3. Navigate through the maze and reach the goal as fast as possible!
 4. Check your ranking on the leaderboard.
 
+## 🎛️ Arduino Joystick Module
+The **Arduino-based joystick module** allows for smooth and responsive player movement within the maze. The joystick data is read by an Arduino script and sent to Unity via serial communication, ensuring real-time interaction between hardware and software. 
+
+To use the Arduino joystick code:
+1. Navigate to the `ArduinoJoystick` folder in the repository.
+2. Open the `.ino` file in the **Arduino IDE**.
+3. Connect your Arduino to your computer via USB.
+4. Upload the script to the Arduino board.
+5. Ensure the correct COM port is selected in Unity for communication.
+
 ## 🤝 Contributing
 We welcome contributions! Follow these steps:
 1. Fork the repository.
@@ -74,4 +86,3 @@ We welcome contributions! Follow these steps:
 
 
 Feel free to reach out if you have any questions or suggestions!
-
