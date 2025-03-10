@@ -10,7 +10,6 @@ Players start from the center of the maze and race to a predetermined endpoint a
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## 🚀 Features
 ✅ **Random Maze Generation** - Unique mazes generated using an algorithm  
@@ -73,10 +72,6 @@ We welcome contributions! Follow these steps:
    ```
 4. Push to your fork and create a pull request.
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 Feel free to reach out if you have any questions or suggestions!
 
